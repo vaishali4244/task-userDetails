@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+.container {
+  margin: auto;
+  padding: 0 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container h1 {
+  color: blueviolet;
+}
+
+.list {
+  border-radius: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1vh 2vw;
+}
+
+.image {
+  height: 7em;
+  width: 7em;
+  box-shadow: 0 0 5px 2px rgb(173, 123, 220);
+  background: grey;
+  border-radius: 10px;
+}
+
+img {
+  height: 7em;
+  width: 7em;
+  border-radius: 8px;
+}
+
+.profile-img {
+  width: 8em;
+  height: 14em;
+  padding: 2vh 3vw;
+  background: rgb(217, 196, 156);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.user-details {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-left: 5vw;
+  padding: 2vh 3vw;
+  background: rgb(187, 155, 216);
+  border: 1px solid blueviolet;
+  border-radius: 10px;
+}
+
+button {
+  width: 9em;
+  border: 1px solid blueviolet;
+  background: blueviolet;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border-radius: 8px;
+  cursor: pointer;
+  height: 2em;
+  justify-self: center;
 }
